@@ -1,10 +1,12 @@
 const express = require('express');
+//use environment variables
+require('dotenv').config();
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); // replacing body-parser library
 
-const port = 3070;
 
-app.listen(port, () => {
-    console.log(`GaNote is listening request on : http://localhost:${port} .......`)
-})
+
+
+const port = process.env.PORT || 5070;
+app.listen(port, () => console.log(`GaNote is listening request on : http://localhost:${port} .......`));
