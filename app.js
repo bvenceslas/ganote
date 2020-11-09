@@ -7,6 +7,7 @@ require('dotenv').config();
 const app = express();
 app.use(express.json()); // replacing body-parser library
 
+app.use('/api', require('./routes/note.route'));
 
 const port = process.env.PORT || 5070;
 app.listen(port, () => console.log(`GaNote is listening request on : http://localhost:${port} .......`));
