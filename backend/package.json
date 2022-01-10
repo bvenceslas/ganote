@@ -14,9 +14,9 @@
   "author": "Venceslas BURONGU Josh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bvenceslas/GaNote/issues"
+    "url": "https://github.com/bvenceslas/ganote/issues"
   },
-  "homepage": "https://github.com/bvenceslas/GaNote#readme",
+  "homepage": "https://github.com/bvenceslas/ganote#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
