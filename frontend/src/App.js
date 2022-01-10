@@ -1,8 +1,13 @@
+import Home from './components/Home/Home.jsx';
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <h1>GANOTE</h1>
+        <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
