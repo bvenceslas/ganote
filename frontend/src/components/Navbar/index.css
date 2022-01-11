@@ -1,0 +1,30 @@
+/* navbar styles */
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+.navbar {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+.navbar h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    font-family: 'Licorice', cursive;
+}
+
+.navbar > .nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #107de2;
+    padding: 15px 0 15px 15px;
+    font-size: 20px;
+}
