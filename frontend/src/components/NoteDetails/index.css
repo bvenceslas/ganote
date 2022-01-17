@@ -13,7 +13,11 @@
 }
 
 .notedet-container {
-    padding: 20px;
+    width: 65%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .notedet-container .notedet-subject {
@@ -24,20 +28,20 @@
     text-align: justify;
 }
 
-
-
-
 .notedet-wrapper .notedet-decision {
     font-weight: bold;
     color: #b81f3344;
+    
 }
 
 .notedet-wrapper .delete {
     width: 100px;
     text-align: center;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 30px;
     color: #fff;
     background-color: #ad1d31;
     cursor: pointer;
+
 }
