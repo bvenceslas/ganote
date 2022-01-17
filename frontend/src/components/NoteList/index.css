@@ -2,7 +2,6 @@
 
 .note-list{
     width: 100%;
-    border: 1px dashed red;
     margin: 0 auto;
 }
 
@@ -23,7 +22,6 @@
 .note-container .note-wrapper {
     padding: 15px;
     width: 45%;
-    border: 2px dotted grey;
 }
 
 .note-wrapper p {
