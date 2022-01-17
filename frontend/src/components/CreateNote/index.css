@@ -1,0 +1,59 @@
+/* Create notes styles */
+
+.create-note{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.create-note h1{
+    font-family: 'Licorice', cursive;
+    font-size: 42px;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form-container {
+    width: 65%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.input-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper label {
+    width: 20%;
+    text-align: center;
+}
+
+.input-wrapper input, select{
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.input-wrapper textarea {
+    width: 80%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.input-wrapper button{
+    width: 30%;
+    background-color: #85b9eb;
+    padding: 5px;
+    border-radius: 30px;;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
