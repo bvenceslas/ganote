@@ -2,10 +2,10 @@ const router = require('express').Router();
 const noteController = require('../controllers/note-controller');
 
 router.get('/test', noteController.testAPI);
-router.get('/note', noteController.findAll);
-router.get('/note/:id', noteController.findOne);
-router.post('/note', noteController.create);
-router.put('/note/:id', noteController.update);
-router.delete('/note/:id', noteController.delete);
+router.get('/notes', noteController.findAll);
+router.get('/notes/:id', noteController.findOne);
+router.post('/notes', noteController.create);
+router.put('/notes/:id', noteController.update);
+router.delete('/notes/:id', noteController.delete);
 
 module.exports = router;
