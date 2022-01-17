@@ -13,6 +13,7 @@
     font-size: 3.5rem;
     margin: 0;
     font-family: 'Licorice', cursive;
+    cursor: pointer;
 }
 
 .navbar > .nav-links {
