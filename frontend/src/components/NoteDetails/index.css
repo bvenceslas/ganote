@@ -1,0 +1,43 @@
+/* Notes details styles */
+
+.note-details {
+    width: 50%;
+    margin: 0 auto;
+}
+.note-details h1 {
+    font-family: 'Licorice', cursive;
+    font-size: 42px;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.notedet-container {
+    padding: 20px;
+}
+
+.notedet-container .notedet-subject {
+    text-align: center;
+}
+
+.notedet-wrapper p {
+    text-align: justify;
+}
+
+
+
+
+.notedet-wrapper .notedet-decision {
+    font-weight: bold;
+    color: #b81f3344;
+}
+
+.notedet-wrapper .delete {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ad1d31;
+    cursor: pointer;
+}
