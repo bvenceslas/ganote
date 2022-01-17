@@ -1,0 +1,51 @@
+/* NoteList styles */
+
+.note-list{
+    width: 100%;
+    border: 1px dashed red;
+    margin: 0 auto;
+}
+
+.note-list h1{
+    font-family: 'Licorice', cursive;
+    font-size: 42px;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.note-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.note-container .note-wrapper {
+    padding: 15px;
+    width: 45%;
+    border: 2px dotted grey;
+}
+
+.note-wrapper p {
+    text-align: justify;
+}
+
+
+.note-wrapper .note-description {
+    height: 50px;
+    overflow: hidden;
+}
+
+.note-wrapper .note-decision {
+    font-weight: bold;
+    color: #b81f3344;
+}
+
+.note-wrapper .read-more {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #85b9eb;
+    cursor: pointer;
+}
