@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './index.css';
 
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
     return ( 
         <nav className="navbar">
-            <h1 className="logo">
+            <h1 className="logo" onClick={() => navigate('/')}>
                 GaNote
             </h1>
 
